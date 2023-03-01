@@ -1,0 +1,241 @@
+{
+  "Base": {
+    "value": "8",
+    "type": "spacing"
+  },
+  "space": {
+    "xxs": {
+      "value": "{Base}/2",
+      "type": "spacing"
+    },
+    "xs": {
+      "value": "{Base}",
+      "type": "spacing"
+    },
+    "s": {
+      "value": "{Base}*2",
+      "type": "spacing"
+    },
+    "m": {
+      "value": "{Base}*3",
+      "type": "spacing"
+    },
+    "l": {
+      "value": "{Base}*4",
+      "type": "spacing"
+    },
+    "xl": {
+      "value": "{Base}*5",
+      "type": "spacing"
+    },
+    "xxl": {
+      "value": "{Base}*8",
+      "type": "spacing"
+    }
+  },
+  "hues": {
+    "brand": {
+      "value": "23",
+      "type": "other"
+    }
+  },
+  "lightness": {
+    "darker": {
+      "value": "-8%",
+      "type": "other"
+    },
+    "lighter": {
+      "value": "8%",
+      "type": "other"
+    },
+    "brand": {
+      "value": "50%",
+      "type": "other"
+    }
+  },
+  "saturation": {
+    "darker": {
+      "value": "-3%",
+      "type": "other"
+    },
+    "lighter": {
+      "value": "3%",
+      "type": "other"
+    },
+    "brand": {
+      "value": "100%",
+      "type": "other"
+    }
+  },
+  "primary": {
+    "200": {
+      "value": "#ffde8a",
+      "type": "color"
+    },
+    "300": {
+      "value": "#ffd15c",
+      "type": "color"
+    },
+    "400": {
+      "value": "#ffc42e",
+      "type": "color"
+    },
+    "500": {
+      "value": "#ffb700",
+      "type": "color"
+    }
+  },
+  "Button radius": {
+    "value": "4",
+    "type": "borderRadius"
+  },
+  "fontFamilies": {
+    "font": {
+      "value": "Hermeneus One",
+      "type": "fontFamilies"
+    }
+  },
+  "lineHeights": {
+    "auto": {
+      "value": "AUTO",
+      "type": "lineHeights"
+    }
+  },
+  "fontWeights": {
+    "Regular": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "bold": {
+      "value": "Bold",
+      "type": "fontWeights"
+    }
+  },
+  "fontSize": {
+    "0": {
+      "value": "20",
+      "type": "fontSizes"
+    },
+    "M": {
+      "value": "28",
+      "type": "fontSizes"
+    },
+    "L": {
+      "value": "50",
+      "type": "fontSizes"
+    }
+  },
+  "letterSpacing": {
+    "0": {
+      "value": "0%",
+      "type": "letterSpacing"
+    }
+  },
+  "paragraphSpacing": {
+    "0": {
+      "value": "0",
+      "type": "paragraphSpacing"
+    }
+  },
+  "textCase": {
+    "none": {
+      "value": "none",
+      "type": "textCase"
+    }
+  },
+  "textDecoration": {
+    "none": {
+      "value": "none",
+      "type": "textDecoration"
+    }
+  },
+  "Button": {
+    "value": {
+      "fontFamily": "{fontFamilies.font}",
+      "fontWeight": "{fontWeights.Regular}",
+      "lineHeight": "{lineHeights.0}",
+      "fontSize": "{fontSize.1}",
+      "letterSpacing": "{letterSpacing.0}",
+      "paragraphSpacing": "",
+      "paragraphIndent": "",
+      "textCase": "",
+      "textDecoration": ""
+    },
+    "type": "typography"
+  },
+  "button": {
+    "horizontal_padding": {
+      "value": "{space.xxl}",
+      "type": "spacing"
+    },
+    "vertical_padding": {
+      "value": "{space.xs}",
+      "type": "spacing"
+    }
+  },
+  "Heading": {
+    "value": {
+      "fontFamily": "{fontFamilies.font}",
+      "fontWeight": "{fontWeights.Regular}",
+      "lineHeight": "{lineHeights.0}",
+      "fontSize": "{fontSize.2}",
+      "letterSpacing": "{letterSpacing.0}",
+      "paragraphSpacing": "",
+      "paragraphIndent": "",
+      "textCase": "",
+      "textDecoration": ""
+    },
+    "type": "typography"
+  },
+  "login_form": {
+    "value": {
+      "paddingTop": "{space.s}",
+      "paddingBottom": "{space.m}",
+      "fill": "{White}",
+      "border": "{light_gray}",
+      "borderWidth": "{form_border}",
+      "borderRadius": "8"
+    },
+    "type": "composition"
+  },
+  "input_border": {
+    "value": "1",
+    "type": "borderWidth"
+  },
+  "Label": {
+    "value": {
+      "fontFamily": "{fontFamilies.font}",
+      "fontWeight": "{fontWeights.Regular}",
+      "lineHeight": "{lineHeights.0}",
+      "fontSize": "{fontSize.0}",
+      "letterSpacing": "{letterSpacing.0}",
+      "paragraphSpacing": "",
+      "paragraphIndent": "",
+      "textCase": "",
+      "textDecoration": ""
+    },
+    "type": "typography"
+  },
+  "button_on_form": {
+    "value": {
+      "width": "285"
+    },
+    "type": "composition"
+  },
+  "form_border": {
+    "value": "1",
+    "type": "borderWidth"
+  },
+  "background": {
+    "main": {
+      "value": "$Black",
+      "type": "color"
+    }
+  },
+  "text": {
+    "main": {
+      "value": "$White",
+      "type": "color"
+    }
+  }
+}
