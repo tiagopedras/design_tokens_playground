@@ -10,5 +10,9 @@
   "light_gray": {
     "value": "#e3e3e3",
     "type": "color"
+  },
+  "dark_gray": {
+    "value": "#999",
+    "type": "color"
   }
 }

@@ -248,7 +248,7 @@
   },
   "background": {
     "main": {
-      "value": "$Black",
+      "value": "$dark_gray",
       "type": "color"
     }
   },
