@@ -1,18 +1,86 @@
 {
-  "Black": {
-    "value": "#000",
-    "type": "color"
+  "headings": {
+    "value": "Bogue",
+    "type": "fontFamilies"
   },
-  "White": {
-    "value": "#FFFFFF",
-    "type": "color"
+  "default": {
+    "value": "Kommon Grotesk",
+    "type": "fontFamilies"
   },
-  "light_gray": {
-    "value": "#e3e3e3",
-    "type": "color"
+  "Heading 1": {
+    "value": {
+      "fontFamily": "{headings}",
+      "fontSize": "{fontSize.XL}",
+      "fontWeight": "{headingsFontWeight.semiBold}"
+    },
+    "type": "typography"
   },
-  "dark_gray": {
-    "value": "#999",
-    "type": "color"
+  "Paragraph Large": {
+    "value": {
+      "fontFamily": "{default}",
+      "fontWeight": "{defaultFontWeight.regular}",
+      "fontSize": "{fontSize.L}"
+    },
+    "type": "typography"
+  },
+  "Button": {
+    "value": {
+      "fontFamily": "Kommon Grotesk",
+      "fontWeight": "{defaultFontWeight.extrabold}",
+      "fontSize": "16"
+    },
+    "type": "typography"
+  },
+  "fontSize": {
+    "XL": {
+      "value": "40",
+      "type": "fontSizes"
+    },
+    "L": {
+      "value": "20",
+      "type": "fontSizes"
+    },
+    "M": {
+      "value": "16",
+      "type": "fontSizes"
+    }
+  },
+  "headingsFontWeight": {
+    "semiBold": {
+      "value": "Semibold",
+      "type": "fontWeights"
+    },
+    "medium": {
+      "value": "Medium",
+      "type": "fontWeights"
+    }
+  },
+  "defaultFontWeight": {
+    "regular": {
+      "value": "Regular",
+      "type": "fontWeights"
+    },
+    "bold": {
+      "value": "Bold",
+      "type": "fontWeights"
+    },
+    "semibold": {
+      "value": "SemiBold",
+      "type": "fontWeights"
+    },
+    "extrabold": {
+      "value": "ExtraBold",
+      "type": "fontWeights"
+    }
+  },
+  "Main": {
+    "Dark": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "Light": {
+      "value": "#FFFFFF",
+      "type": "color"
+    }
   }
 }

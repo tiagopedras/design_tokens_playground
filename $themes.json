@@ -1,37 +1,9 @@
 [
   {
-    "id": "a67bc5d56565989084a894590b511c1e3095fa97",
-    "name": "7Sleep/Light",
+    "id": "2950782bd282ec6f359ea06d6e2d45e63335ebf4",
+    "name": "Unstyled",
     "selectedTokenSets": {
-      "Foundations": "enabled",
-      "7Sleep/Light": "enabled"
-    },
-    "$figmaStyleReferences": {}
-  },
-  {
-    "id": "d8b82e734aea7e9ea4948effbc04eec2e3e76e82",
-    "name": "7Sleep/Dark",
-    "selectedTokenSets": {
-      "7Sleep/Dark": "enabled",
       "Foundations": "enabled"
-    },
-    "$figmaStyleReferences": {}
-  },
-  {
-    "id": "8df952cbd4c9d45d50a4db334fa186054d45dd87",
-    "name": "7Mind.Dark",
-    "selectedTokenSets": {
-      "Foundations": "enabled",
-      "7Mind/Dark": "enabled"
-    },
-    "$figmaStyleReferences": {}
-  },
-  {
-    "id": "0d54654b70737f600291c296b4f93d2b0877e119",
-    "name": "7Mind.Light",
-    "selectedTokenSets": {
-      "Foundations": "enabled",
-      "7Mind/Light": "enabled"
     },
     "$figmaStyleReferences": {}
   }
