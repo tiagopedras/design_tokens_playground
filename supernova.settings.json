@@ -3,7 +3,7 @@
     "mapping": [{
             "tokensTheme": "7Sleep Light",
             "supernovaBrand": "Default",
-            "supernovaTheme": "Value"
+            "supernovaTheme": null
         },
         {
             "tokensTheme": "7Sleep Dark",
