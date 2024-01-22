@@ -2,12 +2,12 @@
     "mode": "single-file",
     "mapping": [{
             "tokensTheme": "7Sleep Light",
-            "supernovaBrand": "7Sleep",
+            "supernovaBrand": "Default",
             "supernovaTheme": "Light"
         },
         {
             "tokensTheme": "7Sleep Dark",
-            "supernovaBrand": "7Sleep",
+            "supernovaBrand": "Default",
             "supernovaTheme": "Dark"
         }
     ],
