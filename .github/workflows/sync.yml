@@ -1,0 +1,28 @@
+name: CI
+on:
+  push:
+    branches: [main]
+
+jobs:
+  sync:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install Supernova CLI dependency
+        run: npm install --g @supernovaio/cli
+
+      - name: Remove gradients
+        run: cat tokens.json | jq 'del(.. | select(.value? | tostring | startswith("linear-gradient")))' > tokens.export.json
+
+      - name: Synchronize tokens with Supernova
+        run: >
+          supernova sync-tokens
+          --apiKey="${{ secrets.SUPERNOVA_API_KEY }}"
+          --designSystemId="${{ secrets.SUPERNOVA_SYSTEM_ID }}"
+          --tokenFilePath "${{ github.workspace }}/tokens.export.json"
+          --configFilePath "${{ github.workspace }}/supernova.settings.json"
