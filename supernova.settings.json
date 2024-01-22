@@ -1,0 +1,19 @@
+{
+    "mode": "single-file",
+    "mapping": [{
+            "tokensTheme": "7Sleep Light",
+            "supernovaBrand": "7Sleep",
+            "supernovaTheme": "Light"
+        },
+        {
+            "tokensTheme": "7Sleep Dark",
+            "supernovaBrand": "7Sleep",
+            "supernovaTheme": "Dark"
+        }
+    ],
+    "settings": {
+        "dryRun": false,
+        "verbose": false,
+        "preciseCopy": false
+    }
+}
