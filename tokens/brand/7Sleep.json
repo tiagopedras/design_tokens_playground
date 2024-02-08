@@ -1,0 +1,54 @@
+{
+  "brandColors": {
+    "brand": {
+      "value": "{colors.brandColors.7sleep}",
+      "type": "color"
+    },
+    "light": {
+      "1": {
+        "value": "{colors.orange.300}",
+        "type": "color"
+      },
+      "2": {
+        "value": "{colors.grapefruit.600}",
+        "type": "color"
+      },
+      "3": {
+        "value": "{colors.olive.200}",
+        "type": "color"
+      },
+      "4": {
+        "value": "{colors.orange.200}",
+        "type": "color"
+      },
+      "5": {
+        "value": "rgba(97,76,124, 0.2)",
+        "type": "color",
+        "description": "Semi transparent light1"
+      }
+    },
+    "dark": {
+      "1": {
+        "value": "{colors.purple.800}",
+        "type": "color"
+      },
+      "2": {
+        "value": "{colors.pink.600}",
+        "type": "color"
+      },
+      "3": {
+        "value": "{colors.purple.900}",
+        "type": "color"
+      },
+      "4": {
+        "value": "{colors.blue.900}",
+        "type": "color"
+      },
+      "5": {
+        "value": "rgba(246,203,161, 0.2)",
+        "type": "color",
+        "description": "Semi transparent dark1"
+      }
+    }
+  }
+}

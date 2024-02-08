@@ -1,0 +1,10 @@
+{
+  "tokenSetOrder": [
+    "foundations/all_scales",
+    "foundations/base_theme",
+    "brand/7Mind",
+    "brand/7Sleep",
+    "mode/light",
+    "mode/dark"
+  ]
+}
