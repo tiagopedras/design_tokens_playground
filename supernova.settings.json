@@ -1,5 +1,5 @@
 {
-    "mode": "single-file",
+    "mode": "multi-file",
     "mapping": [{
             "tokensTheme": "7Sleep Light",
             "supernovaBrand": "Default",
@@ -12,7 +12,7 @@
         }
     ],
     "settings": {
-        "dryRun": false,
+        "dryRun": true,
         "verbose": true,
         "preciseCopy": true
     }
