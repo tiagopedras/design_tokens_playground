@@ -1,6 +1,8 @@
 {
   "tokenSetOrder": [
-    "foundations/all_scales",
+    "foundations/colors",
+    "foundations/typography",
+    "foundations/dimensions",
     "foundations/base_theme",
     "brand/7Mind",
     "brand/7Sleep",

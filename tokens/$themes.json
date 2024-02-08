@@ -57,7 +57,9 @@
     },
     "selectedTokenSets": {
       "foundations/base_theme": "enabled",
-      "foundations/all_scales": "source"
+      "foundations/colors": "source",
+      "foundations/typography": "source",
+      "foundations/dimensions": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:20:110",
     "$figmaModeId": "20:5",
@@ -104,7 +106,9 @@
     "selectedTokenSets": {
       "brand/7Mind": "source",
       "mode/light": "enabled",
-      "foundations/all_scales": "source"
+      "foundations/colors": "source",
+      "foundations/typography": "source",
+      "foundations/dimensions": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:20:143",
     "$figmaModeId": "20:6",
@@ -128,7 +132,9 @@
     "selectedTokenSets": {
       "brand/7Mind": "source",
       "mode/dark": "enabled",
-      "foundations/all_scales": "source"
+      "foundations/colors": "source",
+      "foundations/typography": "source",
+      "foundations/dimensions": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:20:143",
     "$figmaModeId": "20:7",
@@ -152,7 +158,9 @@
     "selectedTokenSets": {
       "mode/light": "enabled",
       "brand/7Sleep": "source",
-      "foundations/all_scales": "source"
+      "foundations/colors": "source",
+      "foundations/typography": "source",
+      "foundations/dimensions": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:20:143",
     "$figmaModeId": "20:8",
@@ -176,7 +184,9 @@
     "selectedTokenSets": {
       "brand/7Sleep": "source",
       "mode/dark": "enabled",
-      "foundations/all_scales": "source"
+      "foundations/colors": "source",
+      "foundations/typography": "source",
+      "foundations/dimensions": "source"
     },
     "$figmaCollectionId": "VariableCollectionId:20:143",
     "$figmaModeId": "20:9",
