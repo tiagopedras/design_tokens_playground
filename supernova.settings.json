@@ -1,25 +1,14 @@
 {
     "mode": "multi-file",
-    "mapping": [
-        {
-            "tokensTheme": "7Mind Light",
+    "mapping": [{
+            "tokensTheme": "7Sleep Light",
             "supernovaBrand": "Default",
             "supernovaTheme": null
         },
         {
-            "tokensTheme": "7Mind Dark",
-            "supernovaBrand": "Default",
-            "supernovaTheme": "7Mind Dark"
-        },
-        {
-            "tokensTheme": "7Sleep Light",
-            "supernovaBrand": "Default",
-            "supernovaTheme": "7Sleep Light"
-        },
-        {
             "tokensTheme": "7Sleep Dark",
             "supernovaBrand": "Default",
-            "supernovaTheme": "7Sleep Dark"
+            "supernovaTheme": "Dark Theme"
         }
     ],
     "settings": {
@@ -28,4 +17,3 @@
         "preciseCopy": false
     }
 }
-
