@@ -3,22 +3,22 @@
     "mapping": [
         {
             "tokensTheme": "7Mind Light",
-            "supernovaBrand": "Default",
+            "supernovaBrand": "7Mind Brand",
             "supernovaTheme": null
         },
         {
             "tokensTheme": "7Mind Dark",
-            "supernovaBrand": "Default",
+            "supernovaBrand": "7Mind Brand",
             "supernovaTheme": "7Mind Dark"
         },
         {
             "tokensTheme": "7Sleep Light",
-            "supernovaBrand": "Default",
-            "supernovaTheme": "7Sleep Light"
+            "supernovaBrand": "7Sleep Brand",
+            "supernovaTheme": null
         },
         {
             "tokensTheme": "7Sleep Dark",
-            "supernovaBrand": "Default",
+            "supernovaBrand": "7Sleep Brand",
             "supernovaTheme": "7Sleep Dark"
         }
     ],
