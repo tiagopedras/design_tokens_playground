@@ -14,7 +14,7 @@
     "settings": {
         "dryRun": true,
         "verbose": true,
-        "preciseCopy": true
+        "preciseCopy": false
     }
 }
 
